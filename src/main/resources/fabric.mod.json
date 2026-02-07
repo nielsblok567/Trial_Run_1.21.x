@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "trialrun",
+	"version": "${version}",
+	"name": "Trial Run",
+	"description": "This is a mod to practice making minecraft mods, following the tutorials by Kaupenjoe",
+	"authors": [
+		"Nielsblok567"
+	],
+	"contact": {
+		"homepage": "n/a",
+		"sources": "n/a"
+	},
+	"license": "n/a",
+	"icon": "assets/trialrun/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nielsblok567.trialrun.TrialRun"
+		],
+		"fabric-datagen": [
+			"net.nielsblok567.trialrun.TrialRunDataGenerator"
+		],
+		"client": [
+			"net.nielsblok567.trialrun.TrialRunClient"
+		]
+	},
+	"mixins": [
+		"trialrun.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
