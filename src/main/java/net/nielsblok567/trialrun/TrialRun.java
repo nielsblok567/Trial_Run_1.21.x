@@ -2,6 +2,7 @@ package net.nielsblok567.trialrun;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.nielsblok567.trialrun.block.ModBlocks;
 import net.nielsblok567.trialrun.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,5 +18,6 @@ public class TrialRun implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
