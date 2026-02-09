@@ -1,5 +1,9 @@
 {
   "item.trialrun.giffel": "Giffel",
 
-  "block.trialrun.coque_block": "Coqueblock"
+  "block.trialrun.coque_block": "Coqueblock",
+  "block.trialrun.pink_garnet_block": "Block of Pink Garnet",
+
+  "itemgroup.trialrun.jokes": "Jokes",
+  "itemgroup.trialrun.pink_garnet": "Pink Garnet"
 }

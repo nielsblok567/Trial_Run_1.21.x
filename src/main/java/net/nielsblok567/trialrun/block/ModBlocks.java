@@ -14,6 +14,10 @@ import net.nielsblok567.trialrun.TrialRun;
 
 public class ModBlocks {
 
+    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     public static final Block COQUE_BLOCK = registerBlock("coque_block",
             new Block(AbstractBlock.Settings.create().strength(0.5f).sounds(BlockSoundGroup.SNOW)));
 
@@ -32,6 +36,7 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.COQUE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.PINK_GARNET_BLOCK);
         });
     }
 }
