@@ -10,6 +10,8 @@ import net.nielsblok567.trialrun.TrialRun;
 
 public class ModItems {
     public static final Item GIFFEL = registerItem("giffel", new Item(new Item.Settings()));
+    public static final Item PLATINUM_RAW = registerItem("platinum_raw", new Item(new Item.Settings()));
+    public static final Item PLATINUM_INGOT = registerItem("platinum_ingot", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TrialRun.MOD_ID, name), item);
@@ -20,6 +22,11 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(GIFFEL);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(PLATINUM_RAW);
+            entries.add(PLATINUM_INGOT);
         });
     }
 
