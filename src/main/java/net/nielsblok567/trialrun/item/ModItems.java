@@ -18,8 +18,8 @@ public class ModItems {
     public static void registerModItems() {
         TrialRun.LOGGER.info("Registering Mod Items for " + TrialRun.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(GIFFEL);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
+            entries.add(GIFFEL);
         });
     }
 

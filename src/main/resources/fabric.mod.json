@@ -8,10 +8,10 @@
 		"Nielsblok567"
 	],
 	"contact": {
-		"homepage": "n/a",
-		"sources": "n/a"
+		"homepage": "nielsblok567.net",
+		"sources": "https://github.com/nielsblok567/Trial_Run_1.21.x"
 	},
-	"license": "n/a",
+	"license": "CC0-1.0",
 	"icon": "assets/trialrun/icon.png",
 	"environment": "*",
 	"entrypoints": {
