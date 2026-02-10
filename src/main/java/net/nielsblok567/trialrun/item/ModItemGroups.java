@@ -20,12 +20,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COQUE_BLOCK);
                     }).build());
 
-    public static final ItemGroup PINK_GARNET = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(TrialRun.MOD_ID, "pink_garnet"),
+    public static final ItemGroup MOD_BLOCKS = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(TrialRun.MOD_ID, "mod_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.PINK_GARNET_BLOCK))
-                    .displayName(Text.translatable("itemgroup.trialrun.pink_garnet"))
+                    .displayName(Text.translatable("itemgroup.trialrun.mod_blocks"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
+                        entries.add(ModBlocks.PLATINUM_ORE);
+                        entries.add(ModBlocks.PLATINUM_DEEPSLATE_ORE);
                     }).build());
 
     public static void registerItemGroups() {

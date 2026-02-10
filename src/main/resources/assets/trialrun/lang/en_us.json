@@ -3,7 +3,9 @@
 
   "block.trialrun.coque_block": "Coqueblock",
   "block.trialrun.pink_garnet_block": "Block of Pink Garnet",
+  "block.trialrun.platinum_ore": "Platinum Ore",
+  "block.trialrun.platinum_deepslate_ore": "Platinum Deepslate Ore",
 
   "itemgroup.trialrun.jokes": "Jokes",
-  "itemgroup.trialrun.pink_garnet": "Pink Garnet"
+  "itemgroup.trialrun.mod_blocks": "Mod Blocks"
 }
