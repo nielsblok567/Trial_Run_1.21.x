@@ -33,7 +33,7 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, Identifier.of(TrialRun.MOD_ID), block);
+        return Registry.register(Registries.BLOCK, Identifier.of(TrialRun.MOD_ID, name), block);
     }
 
     private static void registerBlockItem(String name, Block block) {
@@ -44,9 +44,9 @@ public class ModBlocks {
     public static void registerModBlocks() {
         TrialRun.LOGGER.info("Registering Mod Blocks for " + TrialRun.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModBlocks.COQUE_BLOCK);
-            fabricItemGroupEntries.add(ModBlocks.PINK_GARNET_BLOCK);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+            entries.add(ModBlocks.COQUE_BLOCK);
+            entries.add(ModBlocks.PINK_GARNET_BLOCK);
         });
     }
 }
