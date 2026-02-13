@@ -1,13 +1,21 @@
 {
-  "item.trialrun.giffel": "Giffel",
+  "item.trialrun.giffel": "§4Giffel",
   "item.trialrun.platinum_raw": "Raw Platinum",
   "item.trialrun.platinum_ingot": "Platinum Ingot",
+  "item.trialrun.chisel": "Chisel",
+  "item.trialrun.fuel_pellet": "Fuel Pellet",
 
   "block.trialrun.coque_block": "Coqueblock",
   "block.trialrun.pink_garnet_block": "Block of Pink Garnet",
   "block.trialrun.platinum_ore": "Platinum Ore",
   "block.trialrun.platinum_deepslate_ore": "Platinum Deepslate Ore",
+  "block.trialrun.magic_block": "Magic Block",
 
-  "itemgroup.trialrun.jokes": "Jokes",
-  "itemgroup.trialrun.mod_blocks": "Mod Blocks"
+  "itemgroup.trialrun.modded": "All Modded Items",
+  "itemgroup.trialrun.mod_blocks": "Mod Blocks",
+
+  "tooltip.trialrun.magic_block": "§7Magically transforms §fplatinum§7 ingots to tasty §4Giffels§7!",
+  "tooltip.trialrun.chisel": "§7Hold §eShift §7for more information.",
+  "tooltip.trialrun.chisel.shift_down": "§7This item chisels some stone blocks into bricks!",
+  "tooltip.trialrun.giffel": "§7A delicious cinnamon-y treat!"
 }

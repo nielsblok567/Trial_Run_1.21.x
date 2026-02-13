@@ -2,6 +2,7 @@ package net.nielsblok567.trialrun;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.nielsblok567.trialrun.block.ModBlocks;
 import net.nielsblok567.trialrun.item.ModItemGroups;
 import net.nielsblok567.trialrun.item.ModItems;
@@ -17,5 +18,7 @@ public class TrialRun implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.FUEL_PELLET, 400);
 	}
 }

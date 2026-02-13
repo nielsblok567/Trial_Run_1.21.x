@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "trialrun:block/magic_block"
+    }
+  }
+}
