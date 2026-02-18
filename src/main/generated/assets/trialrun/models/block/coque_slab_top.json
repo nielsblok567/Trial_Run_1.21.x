@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "trialrun:block/coque_block",
+    "side": "trialrun:block/coque_block",
+    "top": "trialrun:block/coque_block"
+  }
+}

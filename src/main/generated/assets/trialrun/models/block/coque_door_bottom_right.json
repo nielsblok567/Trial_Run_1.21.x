@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "trialrun:block/coque_door_bottom",
+    "top": "trialrun:block/coque_door_top"
+  }
+}

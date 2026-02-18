@@ -22,7 +22,7 @@ public class ModItems {
         super.appendTooltip(stack, context, tooltip, options);
         }
     });
-    public static final Item PLATINUM_RAW = registerItem("platinum_raw", new Item(new Item.Settings()));
+    public static final Item RAW_PLATINUM = registerItem("raw_platinum", new Item(new Item.Settings()));
     public static final Item PLATINUM_INGOT = registerItem("platinum_ingot", new Item(new Item.Settings()));
     public static final Item FUEL_PELLET = registerItem("fuel_pellet", new Item(new Item.Settings()));
 
@@ -47,7 +47,7 @@ public class ModItems {
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PLATINUM_RAW);
+            entries.add(RAW_PLATINUM);
             entries.add(PLATINUM_INGOT);
         });
     }

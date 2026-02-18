@@ -1,0 +1,6 @@
+// 1.21	2026-02-17T22:22:07.044722	Trial Run/Tags for minecraft:block
+e6ebd00ad41da654e3cc4e065ac68828a20f56d4 data\minecraft\tags\block\mineable\pickaxe.json
+d83a384d92d95e3eaa1826a38ee42201f14bd68e data\minecraft\tags\block\fence_gates.json
+e5d3b7dd0bf382bbe8314df187fd79c2459b3b54 data\minecraft\tags\block\fences.json
+1df62c262609f2d9ad5bdf016739e2d7af27a3c6 data\minecraft\tags\block\needs_iron_tool.json
+3781f23e417bb8edca29359bfe9a7b9922b6d445 data\minecraft\tags\block\walls.json

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "trialrun:coque_block"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "trialrun:coque_button"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "_from_coal",
+  "ingredients": [
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "trialrun:fuel_pellet"
+  }
+}

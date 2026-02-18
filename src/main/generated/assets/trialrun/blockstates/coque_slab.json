@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "trialrun:block/coque_slab"
+    },
+    "type=double": {
+      "model": "trialrun:block/coque_block"
+    },
+    "type=top": {
+      "model": "trialrun:block/coque_slab_top"
+    }
+  }
+}
